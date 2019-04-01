@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>color game</title>
+    <link rel="stylesheet" href="#" class="css">
+    /* Inline CSS Code */
+    <style>
+    body{
+        margin: 0;
+    }
+    h1{
+        text-align:center;
+        text-transform: uppercase;
+        padding-top:1.5%;
+        padding-bottom:2%;
+    }
+    hr{
+        width: 35%;
+        background: red
+    }
+    button{
+        height: 27px;
+        background: none;
+        outline: none;
+        border: none;
+    }
+ 
+    .box{
+        width:30%;
+        height:30%;
+        padding-bottom: 30%;
+        margin: 1.33%;
+        background: yellowgreen;
+        float:left;
+    }
+    .container{
+        max-width: 600px;
+    }
+  .menu{
+      text-align:center;
+      height: 27px;
+  }
+  #display2{
+      padding-left: 80px;
+      padding-right: 80px;
+      text-align: center;
+      text-transform: uppercase;
+  }
+  .selected{
+      background: greenyellow;
+  }
+    </style>
+</head>
+<body>
+    <h1>the great <span class="display">rgb </span> color game</h1>
+    <hr>
+     
+    <div class="container">
+            <div class="menu">
+                    <button class="reset">Reset</button>
+                    <span id="display2"></span>
+                    <button class="easy">Easy</button>
+                    <button class="hard selected">Hard</button>
+                </div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <script src="colorgame.js"></script>    
+    <script src="#"></script>
+</body>
+</html>
